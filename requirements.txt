@@ -1,0 +1,7 @@
+# Core dependencies
+pillow>=9.0.0  # For image processing in e-tickets
+qrcode>=7.3.1  # For QR code generation
+names>=0.3.0   # For generating random customer names in populate_db.py
+
+# Optional dependencies
+reportlab>=3.6.0  # For PDF ticket generation (optional but recommended)
